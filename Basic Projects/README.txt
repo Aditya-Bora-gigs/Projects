@@ -1,0 +1,2 @@
+These projects are simple and basic for beginners. Nothing complex frameworks is used.
+Languages and Frameworks used - HTML, CSS, Tailwind or Bootstrap(maybe), JavaScript, JavaScript's frameworks like Typed.js, WOW.js, etc.
