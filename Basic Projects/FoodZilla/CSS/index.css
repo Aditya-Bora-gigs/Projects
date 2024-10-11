@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/Pics/Fast\ Food\ Background.png) no-repeat;
+    background-size: 100% 11.5%;
+}
+
+#wrapper {
+    /* background-color: rgb(140, 140, 187); */
+    width: 80vw;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: rgba(235, 197, 126, 0.9);
+    display: flex;
+    font-size: 23px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 500;
+}
+
+nav img {
+    height: 8%;
+    width: 5%;
+    padding-left: 1%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    margin-left: 20%;
+}
+
+nav li {
+    padding-right: 20%;
+}
+
+.typed {
+    margin-top: 65px;
+    font-size: 75px;
+    /* background-color: aquamarine; */
+    min-height: 300px;
+    color: white;
+}
+
+.typed {
+    padding-top: 120px;
+}
+
+#offer {
+    overflow-x: hidden;
+    position: relative;
+    margin-top: 40px;
+}
+
+#offer p:first-child {
+    margin-bottom: 50px;
+    font-family: "Playball", cursive;
+    font-size: 100px;
+}
+
+#back-btn,
+#next-btn {
+    margin-bottom: 50px;
+    transition: transform 0.2s;
+
+}
+
+#back-btn,
+#next-btn:hover {
+    cursor: pointer;
+}
+
+#next-btn:active {
+    transform: scale(0.8);
+    background-color: rgb(228, 226, 226);
+}
+
+#back-btn:active {
+    transform: scaleX(-1) scale(0.8);
+    background-color: rgb(228, 226, 226);
+}
+
+#back-btn {
+    /* padding-left: 15px; */
+    transform: scaleX(-1);
+    padding-top: 2px;
+    background-color: white;
+    border-radius: 20%;
+    box-shadow: 0px 5px 5px 0px rgb(88, 88, 88);
+}
+
+#next-btn {
+    position: absolute;
+    right: 0px;
+    padding-top: 2px;
+    background-color: #f7f7f7;
+    border-radius: 20%;
+    box-shadow: 0px 5px 5px 0px rgb(88, 88, 88);
+}
+
+#offer-btn {
+    display: flex;
+    /* text-align: center; */
+    flex-wrap: nowrap;
+}
+
+.offer {
+    transition: transform 0.2s;
+    margin-right: 100px;
+}
+
+.offer:hover {
+    transform: scale(0.9);
+}
+
+.offer img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.offer p {
+    font-family: "Balcsamiq Sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+
+
+}
+
+#famousres {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: "Playball", cursive;
+    font-size: 100px;
+
+}
+
+#filter {
+    margin-bottom: 30px;
+
+}
+
+#filter p {
+    display: inline;
+    margin-right: 30px;
+}
+
+#filter button {
+    padding: 5px;
+    margin: 0px 5px;
+    border-radius: 10px;
+    background-color: white;
+    transition: transform 0.2s;
+}
+
+#filter button:active {
+    background-color: rgb(228, 226, 226);
+    transform: scale(0.8);
+
+}
+
+#place {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+
+}
+
+.place img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.place {
+    /* text-align: center; */
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.place :nth-child(3) {
+    display: flex;
+    align-items: center;
+}
+
+.place:hover {
+    transform: scale(0.9);
+}
+
+#download {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    margin-top: 150px;
+}
+
+#download p {
+    text-align: center;
+    margin-top: 110px;
+    font-size: 100px;
+}
+
+#download-store img {
+    height: 350px;
+    width: 450px;
+}
+
+footer {
+    background-color: rgb(196, 193, 193);
+    display: flex;
+    margin-top: 100px;
+}
+
+#end-brand {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    font-family: "Pangolin", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+    color: black;
+}
+
+#end-brand img {
+    height: 200px;
+    width: 200px;
+}
+
+#follow {
+    margin-left: 900px;
+    margin-top: 50px;
+}
+
+#follow p {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#follow img {
+    height: 80px;
+    width: 100px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
